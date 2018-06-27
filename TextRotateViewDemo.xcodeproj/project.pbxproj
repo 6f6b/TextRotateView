@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		689C962E20E3322A006E6032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C962D20E3322A006E6032 /* AppDelegate.m */; };
+		689C963120E3322A006E6032 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C963020E3322A006E6032 /* ViewController.m */; };
+		689C963420E3322A006E6032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689C963220E3322A006E6032 /* Main.storyboard */; };
+		689C963620E3322C006E6032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689C963520E3322C006E6032 /* Assets.xcassets */; };
+		689C963920E3322C006E6032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689C963720E3322C006E6032 /* LaunchScreen.storyboard */; };
+		689C963C20E3322C006E6032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C963B20E3322C006E6032 /* main.m */; };
+		689C964620E3322C006E6032 /* TextRotateViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C964520E3322C006E6032 /* TextRotateViewDemoTests.m */; };
+		689C965120E3322C006E6032 /* TextRotateViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C965020E3322C006E6032 /* TextRotateViewDemoUITests.m */; };
+		689C966120E33271006E6032 /* TextRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C966020E33271006E6032 /* TextRotateView.m */; };
+		689C966420E335A3006E6032 /* TextRotateItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C966320E335A3006E6032 /* TextRotateItemCell.m */; };
+		689C966720E33617006E6032 /* TextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C966620E33617006E6032 /* TextModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		689C964220E3322C006E6032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689C962120E3322A006E6032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689C962820E3322A006E6032;
+			remoteInfo = TextRotateViewDemo;
+		};
+		689C964D20E3322C006E6032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689C962120E3322A006E6032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689C962820E3322A006E6032;
+			remoteInfo = TextRotateViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		689C962920E3322A006E6032 /* TextRotateViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextRotateViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689C962C20E3322A006E6032 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		689C962D20E3322A006E6032 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		689C962F20E3322A006E6032 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		689C963020E3322A006E6032 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		689C963320E3322A006E6032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		689C963520E3322C006E6032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689C963820E3322C006E6032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689C963A20E3322C006E6032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689C963B20E3322C006E6032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		689C964120E3322C006E6032 /* TextRotateViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextRotateViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689C964520E3322C006E6032 /* TextRotateViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextRotateViewDemoTests.m; sourceTree = "<group>"; };
+		689C964720E3322C006E6032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689C964C20E3322C006E6032 /* TextRotateViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextRotateViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689C965020E3322C006E6032 /* TextRotateViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextRotateViewDemoUITests.m; sourceTree = "<group>"; };
+		689C965220E3322C006E6032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689C965F20E33271006E6032 /* TextRotateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextRotateView.h; sourceTree = "<group>"; };
+		689C966020E33271006E6032 /* TextRotateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextRotateView.m; sourceTree = "<group>"; };
+		689C966220E335A3006E6032 /* TextRotateItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextRotateItemCell.h; sourceTree = "<group>"; };
+		689C966320E335A3006E6032 /* TextRotateItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextRotateItemCell.m; sourceTree = "<group>"; };
+		689C966520E33617006E6032 /* TextModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextModel.h; sourceTree = "<group>"; };
+		689C966620E33617006E6032 /* TextModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689C962620E3322A006E6032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689C963E20E3322C006E6032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689C964920E3322C006E6032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689C962020E3322A006E6032 = {
+			isa = PBXGroup;
+			children = (
+				689C962B20E3322A006E6032 /* TextRotateViewDemo */,
+				689C964420E3322C006E6032 /* TextRotateViewDemoTests */,
+				689C964F20E3322C006E6032 /* TextRotateViewDemoUITests */,
+				689C962A20E3322A006E6032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		689C962A20E3322A006E6032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689C962920E3322A006E6032 /* TextRotateViewDemo.app */,
+				689C964120E3322C006E6032 /* TextRotateViewDemoTests.xctest */,
+				689C964C20E3322C006E6032 /* TextRotateViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689C962B20E3322A006E6032 /* TextRotateViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				689C962C20E3322A006E6032 /* AppDelegate.h */,
+				689C962D20E3322A006E6032 /* AppDelegate.m */,
+				689C962F20E3322A006E6032 /* ViewController.h */,
+				689C963020E3322A006E6032 /* ViewController.m */,
+				689C965E20E33245006E6032 /* TextRotateView */,
+				689C963220E3322A006E6032 /* Main.storyboard */,
+				689C963520E3322C006E6032 /* Assets.xcassets */,
+				689C963720E3322C006E6032 /* LaunchScreen.storyboard */,
+				689C963A20E3322C006E6032 /* Info.plist */,
+				689C963B20E3322C006E6032 /* main.m */,
+			);
+			path = TextRotateViewDemo;
+			sourceTree = "<group>";
+		};
+		689C964420E3322C006E6032 /* TextRotateViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				689C964520E3322C006E6032 /* TextRotateViewDemoTests.m */,
+				689C964720E3322C006E6032 /* Info.plist */,
+			);
+			path = TextRotateViewDemoTests;
+			sourceTree = "<group>";
+		};
+		689C964F20E3322C006E6032 /* TextRotateViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				689C965020E3322C006E6032 /* TextRotateViewDemoUITests.m */,
+				689C965220E3322C006E6032 /* Info.plist */,
+			);
+			path = TextRotateViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		689C965E20E33245006E6032 /* TextRotateView */ = {
+			isa = PBXGroup;
+			children = (
+				689C965F20E33271006E6032 /* TextRotateView.h */,
+				689C966020E33271006E6032 /* TextRotateView.m */,
+				689C966520E33617006E6032 /* TextModel.h */,
+				689C966620E33617006E6032 /* TextModel.m */,
+				689C966220E335A3006E6032 /* TextRotateItemCell.h */,
+				689C966320E335A3006E6032 /* TextRotateItemCell.m */,
+			);
+			path = TextRotateView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689C962820E3322A006E6032 /* TextRotateViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689C965520E3322C006E6032 /* Build configuration list for PBXNativeTarget "TextRotateViewDemo" */;
+			buildPhases = (
+				689C962520E3322A006E6032 /* Sources */,
+				689C962620E3322A006E6032 /* Frameworks */,
+				689C962720E3322A006E6032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextRotateViewDemo;
+			productName = TextRotateViewDemo;
+			productReference = 689C962920E3322A006E6032 /* TextRotateViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		689C964020E3322C006E6032 /* TextRotateViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689C965820E3322C006E6032 /* Build configuration list for PBXNativeTarget "TextRotateViewDemoTests" */;
+			buildPhases = (
+				689C963D20E3322C006E6032 /* Sources */,
+				689C963E20E3322C006E6032 /* Frameworks */,
+				689C963F20E3322C006E6032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689C964320E3322C006E6032 /* PBXTargetDependency */,
+			);
+			name = TextRotateViewDemoTests;
+			productName = TextRotateViewDemoTests;
+			productReference = 689C964120E3322C006E6032 /* TextRotateViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		689C964B20E3322C006E6032 /* TextRotateViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689C965B20E3322C006E6032 /* Build configuration list for PBXNativeTarget "TextRotateViewDemoUITests" */;
+			buildPhases = (
+				689C964820E3322C006E6032 /* Sources */,
+				689C964920E3322C006E6032 /* Frameworks */,
+				689C964A20E3322C006E6032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689C964E20E3322C006E6032 /* PBXTargetDependency */,
+			);
+			name = TextRotateViewDemoUITests;
+			productName = TextRotateViewDemoUITests;
+			productReference = 689C964C20E3322C006E6032 /* TextRotateViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689C962120E3322A006E6032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = dev.liufeng;
+				TargetAttributes = {
+					689C962820E3322A006E6032 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					689C964020E3322C006E6032 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 689C962820E3322A006E6032;
+					};
+					689C964B20E3322C006E6032 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 689C962820E3322A006E6032;
+					};
+				};
+			};
+			buildConfigurationList = 689C962420E3322A006E6032 /* Build configuration list for PBXProject "TextRotateViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689C962020E3322A006E6032;
+			productRefGroup = 689C962A20E3322A006E6032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689C962820E3322A006E6032 /* TextRotateViewDemo */,
+				689C964020E3322C006E6032 /* TextRotateViewDemoTests */,
+				689C964B20E3322C006E6032 /* TextRotateViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689C962720E3322A006E6032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689C963920E3322C006E6032 /* LaunchScreen.storyboard in Resources */,
+				689C963620E3322C006E6032 /* Assets.xcassets in Resources */,
+				689C963420E3322A006E6032 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689C963F20E3322C006E6032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689C964A20E3322C006E6032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689C962520E3322A006E6032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689C963120E3322A006E6032 /* ViewController.m in Sources */,
+				689C963C20E3322C006E6032 /* main.m in Sources */,
+				689C966120E33271006E6032 /* TextRotateView.m in Sources */,
+				689C966420E335A3006E6032 /* TextRotateItemCell.m in Sources */,
+				689C966720E33617006E6032 /* TextModel.m in Sources */,
+				689C962E20E3322A006E6032 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689C963D20E3322C006E6032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689C964620E3322C006E6032 /* TextRotateViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689C964820E3322C006E6032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689C965120E3322C006E6032 /* TextRotateViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		689C964320E3322C006E6032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689C962820E3322A006E6032 /* TextRotateViewDemo */;
+			targetProxy = 689C964220E3322C006E6032 /* PBXContainerItemProxy */;
+		};
+		689C964E20E3322C006E6032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689C962820E3322A006E6032 /* TextRotateViewDemo */;
+			targetProxy = 689C964D20E3322C006E6032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		689C963220E3322A006E6032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689C963320E3322A006E6032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		689C963720E3322C006E6032 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689C963820E3322C006E6032 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689C965320E3322C006E6032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		689C965420E3322C006E6032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689C965620E3322C006E6032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6A5794LJU;
+				INFOPLIST_FILE = TextRotateViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TextRotateViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		689C965720E3322C006E6032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T6A5794LJU;
+				INFOPLIST_FILE = TextRotateViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TextRotateViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		689C965920E3322C006E6032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TextRotateViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TextRotateViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextRotateViewDemo.app/TextRotateViewDemo";
+			};
+			name = Debug;
+		};
+		689C965A20E3322C006E6032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TextRotateViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TextRotateViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextRotateViewDemo.app/TextRotateViewDemo";
+			};
+			name = Release;
+		};
+		689C965C20E3322C006E6032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TextRotateViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TextRotateViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextRotateViewDemo;
+			};
+			name = Debug;
+		};
+		689C965D20E3322C006E6032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TextRotateViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TextRotateViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextRotateViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689C962420E3322A006E6032 /* Build configuration list for PBXProject "TextRotateViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689C965320E3322C006E6032 /* Debug */,
+				689C965420E3322C006E6032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689C965520E3322C006E6032 /* Build configuration list for PBXNativeTarget "TextRotateViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689C965620E3322C006E6032 /* Debug */,
+				689C965720E3322C006E6032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689C965820E3322C006E6032 /* Build configuration list for PBXNativeTarget "TextRotateViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689C965920E3322C006E6032 /* Debug */,
+				689C965A20E3322C006E6032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689C965B20E3322C006E6032 /* Build configuration list for PBXNativeTarget "TextRotateViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689C965C20E3322C006E6032 /* Debug */,
+				689C965D20E3322C006E6032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 689C962120E3322A006E6032 /* Project object */;
+}
