@@ -45,7 +45,7 @@ typedef enum : NSUInteger {
 /**
  更新轮播的内容
  
- @param textModels
+ @param textModels 新的轮播文字数组
  */
 - (void)updateTextModelsWith:(NSArray *)textModels{
     if(textModels.count <= 0){return;}
