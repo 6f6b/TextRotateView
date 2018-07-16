@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TextRotateView"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "文字轮播视图"
   s.description  = <<-DESC
       方便创建文字轮播图，类似于抖音左下方的音乐名字轮播，可实现高度自定义

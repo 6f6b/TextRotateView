@@ -29,6 +29,13 @@
 
 
 /**
+ 更新轮播的内容
+
+ @param textModels 
+ */
+- (void)updateTextModelsWith:(NSArray *)textModels;
+
+/**
  启动
  */
 - (void)start;

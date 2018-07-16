@@ -16,7 +16,7 @@ typedef enum : NSUInteger {
     TextRotateViewStateInStop
 } TextRotateViewState;
 @interface TextRotateView()<UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,UICollectionViewDataSource>
-@property (nonatomic,strong)  NSArray *textModels;
+@property (nonatomic,strong)  NSMutableArray *textModels;
 @property (nonatomic,assign) TextRotateViewState state;
 @end
 @implementation TextRotateView
@@ -24,12 +24,15 @@ typedef enum : NSUInteger {
 - (instancetype)initWithFrame:(CGRect)frame textModels:(NSArray *)textModels{
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    _textModels = [NSMutableArray new];
     if(self = [super initWithFrame:frame collectionViewLayout:flowLayout]){
         self.backgroundColor = [UIColor clearColor];
         self.showsVerticalScrollIndicator = false;
         self.showsHorizontalScrollIndicator = false;
         self.state = TextRotateViewStateInIdel;
-        _textModels = textModels;
+        for(TextModel *textModel in textModels){
+            [_textModels addObject:textModel];
+        }
         _rotateRate = (CGFloat)20;
         _horizontalSpacing = (CGFloat)10;
         [self registerClass:[TextRotateItemCell class] forCellWithReuseIdentifier:@"TextRotateItemCell"];
@@ -37,6 +40,19 @@ typedef enum : NSUInteger {
         self.dataSource = self;
     }
     return self;
+}
+
+/**
+ 更新轮播的内容
+ 
+ @param textModels
+ */
+- (void)updateTextModelsWith:(NSArray *)textModels{
+    if(textModels.count <= 0){return;}
+    [_textModels removeAllObjects];
+    for(TextModel *textModel in textModels){
+        [_textModels addObject:textModel];
+    }
 }
 
 /**
